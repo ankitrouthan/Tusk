@@ -1,0 +1,13 @@
+class Employee:
+    def __init__(self,first,last,pay):
+        self.first=first
+        self.last=last
+        self.pay=pay
+        self.email=first + last + '@deloitte.com'
+
+
+emp1=Employee('Ankit','Routhan','1000')
+emp2=Employee('Sumit','Bansal','2000')
+
+print(emp1.email)
+print(emp2.email)
