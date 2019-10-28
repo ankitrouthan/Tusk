@@ -1,0 +1,13 @@
+class Employee:   #blueprint to create instances of employee class
+    pass
+
+emp1=Employee()
+emp2=Employee()
+
+print(emp1)
+print(emp2)
+
+#Each instances of class are unique
+Output
+#<__main__.Employee object at 0x0355B530>
+#<__main__.Employee object at 0x0355B650>
