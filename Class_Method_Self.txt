@@ -1,0 +1,21 @@
+#Adding Method in class to give the full name
+
+class Employee:
+    def __init__(self,first,last,pay):
+        self.first=first
+        self.last=last
+        self.pay=pay
+        self.email=first + last + '@deloitte.com'
+    def fullname(self): #Self takes the instance by default when we call methods using instances
+        return '{} {}'.format(self.first,self.last)
+
+
+
+emp1=Employee('Ankit','Routhan','1000')
+emp2=Employee('Sumit','Bansal','2000')
+
+print(emp1.fullname())
+print(emp1.email)
+print(emp1.fullname())
+print(emp2.email)
+
